@@ -1,0 +1,115 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* Para desplazar la pantalla */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Aquí va el fondo general */
+.hero{
+    background: linear-gradient(135deg,#3a5486,#3860a4);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+/* Esto lleva el espaciado general */
+section{
+    padding: 80px 0;
+}
+
+/* Esto es de los títulos */
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Esto es de la sección de equipo */
+#equipo{
+    background-color: #fcfdfd;
+}
+
+#equipo img{
+    max-width: 300px;
+}
+
+/* Estilo sobre la sección sobre mí */
+#sobremi{
+    background-color: rgb(200, 228, 248);
+}
+
+#sobremi .card{
+    transition: 0.5s;
+}
+
+#sobremi .card:hover{
+    transform: translateY(-9px);
+}
+
+/* Estilo para la sección de experiencia */
+#experiencia{
+    background-color: #fafbfb;
+}
+
+#experiencia .accordion{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Estilo para sección de proyectos */
+#proyectos{
+    background-color: rgb(164, 196, 244);
+}
+
+#proyectos .card{
+    transition: 0.5s;
+}
+
+#proyectos .card:hover{
+    transform: scale(1.05);
+}
+
+/* Estilo para la sección testimonios */
+#testimonios{
+    background-color: #b9dcfc;
+}
+
+#testimonios .card{
+    max-width: 800px;
+    margin: auto;
+    border: none;
+}
+
+/* Estilo para la sección de multimedia */
+#multimedia{
+    background-color: white;
+}
+
+/* Estilo para la sección de contacto */
+#contacto{
+    background-color: #f8f9fa;
+}
+
+#contacto .card{
+    border: none;
+}
+
+/* Estilo para el footer */
+footer{
+    background-color: #363a3e;
+    color: white;
+    padding: 40px 0;
+}
+
+footer p{
+    margin-bottom: 5px;
+}
+
+/* Estilo para que el menú no tape los títulos */
+section{
+    scroll-margin-top: 80px;
+}
